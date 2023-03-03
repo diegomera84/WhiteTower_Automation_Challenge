@@ -79,7 +79,11 @@ class TodosPage {
     const lsit =  this.elements.toDoList(); 
     lsit.invoke('text')
     .then((text1) => {
-      console.log(text1);
+      let arr = text1.split('\n');
+      let element1 = arr[3].slice(8);
+      let element2 = arr[12].slice(8);
+      console.log('1st-'+element1);
+      console.log('2nd-'+element2);
     });
     }
 }
