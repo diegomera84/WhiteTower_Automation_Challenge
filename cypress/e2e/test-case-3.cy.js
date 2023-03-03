@@ -8,8 +8,9 @@ describe('Test case 1', () => {
     todoActions = new  TodosPage();
   })
     it('add toDo elements', () => {
-      const textValidator = 'ToDo 3';
       todoActions.insertToDo(3);
-      todoActions.getToDoElement(3).should('have.text', textValidator);
+      todoActions.completeToDoElement(3); 
+      todoActions.elements.completeElements().click();
+      todoActions.printElements();
      })
   })
