@@ -4,7 +4,8 @@ let todoActions
 
 describe('Test case 1', () => {
   beforeEach(() => {
-    cy.visit('/examples/angularjs')
+    cy.visit('/examples/angularjs');
+    cy.viewport(1280, 720)
     todoActions = new  TodosPage();
   })
     it('add toDo elements', () => {
