@@ -34,3 +34,9 @@ run a specific test suite
 ```bash
 yarn playwrith test <TEST_PATH>
 ```
+
+## Reports
+
+The reports will be generated automatically and stored in:
+
+cypress\results
