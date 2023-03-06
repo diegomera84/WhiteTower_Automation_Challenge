@@ -5,6 +5,8 @@ Here you will find automated tests implemented with cypress and JavaScript.
 
 Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications.
 
+It is possible to run the tests on different devices using viewport.
+
 ## Table of contents
 
 * [Getting started](#getting-started)
