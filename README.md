@@ -9,7 +9,7 @@ Cypress is a next generation front end testing tool built for the modern web. We
 
 * [Getting started](#getting-started)
 * [Running tests](#running-tests)
-* [Running specific tests](#running-specific-tests)
+* [Reports](#reports)
 
 ## Getting Started
 
@@ -21,20 +21,18 @@ yarn install
 ```
 ## Running tests
 
-run the entire test suite of a project
+run the entire test suite of a project, using the commands follow:
+
+For Chrome
 
 ```bash
-yarn test:e2e
+yarn cy:run:chrome
 ```
-
-## Running specific tests
-
-run a specific test suite
+For Firefox
 
 ```bash
-yarn playwrith test <TEST_PATH>
+yarn cy:run:firefox
 ```
-
 ## Reports
 
 The reports will be generated automatically and stored in:
